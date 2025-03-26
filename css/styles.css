@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+#section1 {
+    background-image: url('../images/homelander1.jpg');
+}
+
+#section2 {
+    background-image: url('../images/homelander2.jpg');
+}
+
+#section3 {
+    background-image: url('../images/homelander3.jpg');
+}
+
+.content {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 3rem;
+}
+
+.content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
